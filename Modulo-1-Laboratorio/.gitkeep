@@ -1,0 +1,16 @@
+# Módulo 1: Despliegue de Laboratorio de Hacking Ético
+
+## Objetivo
+Configurar un entorno de pruebas seguro (Sandbox) segregado de la red principal para realizar simulaciones de ataque (Red Team) y defensa (Blue Team) sin riesgos.
+
+## Herramientas Utilizadas
+* **Host Atacante:** Kali Linux (Nativo)
+* **Víctima:** Metasploitable 2 (Virtualizada en VirtualBox)
+* **Hipervisor:** VirtualBox 7.2.4
+* **Configuración de Red:** Host-Only Adapter (Red aislada 192.168.56.0/24)
+
+## Evidencia de Conectividad
+---
+
+## Análisis Técnico
+Se estableció una red privada virtual ("Host-Only") que permite la comunicación TCP/IP directa entre el Host Atacante y la VM Víctima, manteniendo el tráfico aislado de internet. El comando `ping` confirma que la pila ICMP está operativa y hay visibilidad bidireccional, requisito previo para iniciar fases de escaneo de puertos.
