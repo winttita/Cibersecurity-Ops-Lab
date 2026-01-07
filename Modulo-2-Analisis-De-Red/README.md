@@ -10,11 +10,11 @@ Utilizar sniffers de paquetes (Wireshark) para visualizar el flujo de datos en l
 ## Análisis Forense
 
 ### 1. Visibilidad de Red (ICMP & ARP)
-![Captura Ping](./NOMBRE_DE_TU_IMAGEN_PING.png)
+![Captura Ping](./Trafico-conexion.jpeg)
 *Se verificó la resolución de direcciones (ARP) y el flujo de paquetes de control (ICMP) confirmando la conectividad bidireccional.*
 
 ### 2. Intercepción de Credenciales (Vulnerabilidad Telnet)
-![Captura Telnet](./NOMBRE_DE_TU_IMAGEN_TELNET.png)
+![Captura Telnet](./Seguimiento-telnet.jpeg)
 *Se capturó una sesión Telnet completa. Mediante la función "Follow TCP Stream", se reconstruyó la conversación, exponiendo el usuario `msfadmin` y la contraseña `msfadmin` en texto plano, demostrando la falta de cifrado.*
 
 ## Conclusión
