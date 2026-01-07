@@ -10,5 +10,5 @@ Identificar y explotar una vulnerabilidad crítica en un servicio expuesto para 
 4.  **Acciones en Objetivos:** Se obtuvo una Shell remota con privilegios de `root`.
 
 ## Evidencia de Compromiso
-![Shell Root](./Exploit-exitoso.jpeg)
+![Shell Root](./Exploit-exitoso.)
 *La terminal confirma el acceso con `uid=0(root)`, otorgando control total sobre el servidor víctima.*
